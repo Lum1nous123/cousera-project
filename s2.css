@@ -1,0 +1,121 @@
+
+/* BODY – font family + font size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fb;
+}
+
+/* HEADER – background color */
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* NAV – background color */
+nav {
+  display: inline-block;
+  width: 80%;
+  background-color: #0055a5; /* giữ nguyên hoặc chỉnh tùy bro */
+}
+
+nav img {
+  width: 10%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+
+/* LI – display + width */
+/* nav li {
+  display: inline-block;
+  width: 25%;
+} */
+
+/* Nav links */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* MAIN – background + font size */
+main {
+  background-color: #ffffff;
+  font-size: 1rem;
+  padding: 1.5rem;
+  line-height: 1.6;
+}
+
+/* FOOTER – background */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* H1 – alignment, font, color */
+h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #ffdd55;
+  margin-top: 1rem;
+}
+
+/* Paragraph – line height */
+p {
+  line-height: 1.7;
+}
+
+/* Image responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+.skip {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: yellow;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip:focus {
+  top: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  row-gap: 20px;  /* TODO bro chỉnh theo layout bài */
+  align-items: center; /* TODO bro chỉnh */
+}
+
+.grid img {
+  width: 100%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between; 
+  align-items: start; 
+  row-gap: 30px; 
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
